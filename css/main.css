@@ -82,5 +82,23 @@ div {
 }
 
 .js-panel-collapse {
-    max-height: 15em;
+    max-height: 10em;
+}
+
+.panel h2 {
+    margin: 0;
+    padding: 3rem 0;
+}
+
+.circle {
+    height: 100px;
+    top: calc(50% - 50px);
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.js-ball-bounce {
+    -webkit-animation: ball-bounce 1s linear;
+    animation: ball-bounce 1s linear;
 }
