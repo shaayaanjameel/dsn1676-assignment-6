@@ -52,3 +52,18 @@ div {
 .js-box-show {
     opacity: 1;
 }
+
+.diamond {
+    height: 80px;
+    width: 80px;
+    right: -100px;
+    top: calc(50% - 40px);
+    background-color: hotpink;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: all 200ms linear;
+}
+
+.js-move {
+    right: 2em;
+}
