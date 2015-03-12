@@ -67,3 +67,20 @@ div {
 .js-move {
     right: 2em;
 }
+
+.panel {
+    width: 250px;
+    top: 50%;
+    max-height: 0;
+    background-color: yellow;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: all 200ms linear;
+    color: darkgoldenrod;
+    text-align: center;
+    overflow: hidden;
+}
+
+.js-panel-collapse {
+    max-height: 15em;
+}
