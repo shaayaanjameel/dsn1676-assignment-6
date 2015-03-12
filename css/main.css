@@ -38,3 +38,17 @@ div {
     right: 1em;
     top: 0;
 }
+
+.box {
+    height: 100px;
+    top: calc(50% - 50px);
+    widows: 200px;
+    background-color: limegreen;
+    opacity: 0;
+    transition: all 200ms linear;
+    overflow: hidden;
+}
+
+.js-box-show {
+    opacity: 1;
+}

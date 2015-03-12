@@ -1,4 +1,4 @@
-var $btnShow = $('.btn-show-hide');
+var $Show = $('.btn-show-hide');
 var $box = $('.box');
 
 var $btnMove = $('.btn-move');
