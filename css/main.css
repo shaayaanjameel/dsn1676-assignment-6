@@ -170,3 +170,32 @@ div {
     }
 
 }
+
+.list {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    top: 1em;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.list li {
+    padding: .5em;
+    max-height: 0;
+    color: mediumpurple;
+    background-color: plum;
+    border: 1px solid mediumpurple;
+    overflow: hidden;
+}
+
+.js-list-append {
+    -webkit-animation: js-list-append 200ms linear forwards;
+    animation: js-list-append 200ms linear forwards;
+}
+    
+    
